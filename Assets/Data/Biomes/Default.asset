@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3790d7a71d9a53143ba5b1e4e422a379, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  biomeName: 
+  solidGroundHeight: 70
+  terrainHeight: 85
+  terrainScale: 0.1
+  topLevelBlockID: 4
+  lowerLevelBlockID: 3
+  undergroundBlockID: 2
+  lodes:
+  - nodeName: Coal
+    blockID: 6
+    restrictToStone: 1
+    minHeight: 1
+    maxHeight: 255
+    scale: 0.15
+    threshold: 0.55
+    noiseOffset: 0
+  - nodeName: Cave
+    blockID: 0
+    restrictToStone: 0
+    minHeight: 1
+    maxHeight: 255
+    scale: 0.065
+    threshold: 0.6
+    noiseOffset: 500
